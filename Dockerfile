@@ -23,6 +23,7 @@ RUN pip install --prefix="/install" --no-warn-script-location \
       eventlet \
 # napalm is used for gathering information from network devices
       napalm \
+      napalm-ce \
 # ruamel is used in startup_scripts
       'ruamel.yaml>=0.15,<0.16' \
 # django_auth_ldap is required for ldap
