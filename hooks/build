@@ -1,6 +1,6 @@
 #!/bin/bash
 
 . hooks/common
-
+export BUILD=release
 # shellcheck disable=SC2119
 run_build
